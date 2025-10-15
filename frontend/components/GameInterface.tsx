@@ -216,7 +216,7 @@ export default function GameInterface({ userSession, onNavigateToResults }: Game
           <Brain className="h-16 w-16 text-slate-400 mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-white mb-2">No Active Round</h3>
           <p className="text-slate-400 mb-4">
-            There's currently no vocabulary challenge active.
+            There is currently no vocabulary challenge active.
           </p>
           {gameConfig && (
             <div className="mb-4 p-4 bg-slate-700/50 rounded-lg border border-slate-600/50">
@@ -285,7 +285,7 @@ export default function GameInterface({ userSession, onNavigateToResults }: Game
       <div className="p-8 bg-slate-800/60 border border-slate-700/50 rounded-2xl backdrop-blur-sm">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-white mb-2">
-            What does "<span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">{currentRound.word}</span>" mean?
+            What does <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">{currentRound.word}</span> mean?
           </h2>
           <p className="text-slate-400">
             Choose the correct definition to earn your share of the prize pool

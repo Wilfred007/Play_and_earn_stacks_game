@@ -139,7 +139,7 @@ export default function RoundResults({ userSession }: RoundResultsProps) {
           <Target className="h-16 w-16 text-slate-400 mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-white mb-2">No Round History</h3>
           <p className="text-slate-400 mb-4">
-            You haven't participated in any rounds yet. Start playing to see your results!
+            You have not participated in any rounds yet. Start playing to see your results!
           </p>
           <button onClick={fetchRoundHistory} className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg font-medium transition-colors flex items-center gap-2 mx-auto">
             <RefreshCw className="h-4 w-4" />
@@ -295,7 +295,7 @@ export default function RoundResults({ userSession }: RoundResultsProps) {
                   {/* Word and Definition */}
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-3">
-                      What does "<span className="text-cyan-400">{selectedRound.round.word}</span>" mean?
+                      What does <span className="text-cyan-400">{selectedRound.round.word}</span> mean?
                     </h4>
                     
                     {selectedRound.round.options && (
